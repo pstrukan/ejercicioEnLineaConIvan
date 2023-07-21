@@ -11,6 +11,7 @@ body{
     align-items: center;
 }
 .cont-main{
+    width: 500px;
     margin: 50px;
     padding: 20px;
     display: flex;
