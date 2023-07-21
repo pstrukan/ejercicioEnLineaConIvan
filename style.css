@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#1da1f2 ;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.cont-main{
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+.user{
+    display: flex;
+    font-weight: bold;
+}
+.tweet{
+    font-size: 20px;
+    font-weight: 100;
+}
+.tweet .date{
+    color: grey;
+    padding: 5px;
+}
+.reactions{
+    display: flex;
+    justify-content: space-between;
+}
